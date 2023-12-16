@@ -1,5 +1,31 @@
-.Prueba{
-    background-color: blue;
-    width: 30px;
-    height: 30px;
-}
+.Navbar_container {
+    background: rgba(250, 0, 0, 0.7);
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+    border-radius: 10%%;
+    border: 3px solid orange;
+    float:left;
+  }
+
+  .Navbar_container ul {
+    list-style: none;
+    overflow: hidden; 
+    display: flex;
+    justify-content: center;
+  }
+  
+  .Navbar_container ul li {
+    float: left;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+  }
+  .Navbar_container ul li a {
+    display: block;
+    padding: 10px;
+    color: #fff;
+    text-decoration: none;
+  }
+  .Navbar_container ul li:hover {
+    background: #e90202;
+  }
