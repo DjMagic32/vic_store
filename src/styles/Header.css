@@ -1,0 +1,13 @@
+.h2 {
+    text-align: center;
+    display: flexbox;
+    color: black;
+}
+.w10 {
+    display: flexbox;
+    justify-content: center;
+    right: 50%;
+    bottom: -50%;
+
+    
+}

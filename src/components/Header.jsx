@@ -1,8 +1,14 @@
 import React from 'react';
+import imagen from './genz.png'
+import '../styles/Header.css'
 
 const Header = () => {
   return (
-    <div>Header</div>
+    <header className='header'>
+        <div className='Intel_Emblem'>
+          <img src={imagen} alt="Intel" className='w10' />
+        </div>
+    </header>
   )
 }
 
